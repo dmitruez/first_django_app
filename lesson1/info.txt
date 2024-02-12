@@ -1,0 +1,9 @@
+django-admin startproject project1 -- создаёт проект django
+python .\manage.py startapp app1 -- создает внутри него приложение
+python .\manage.py runserver 8080 -- запускает это приложение с портом 8080
+
+python .\manage.py makemigrations app1 -- проверяет миграции
+python .\manage.py migrate -- устанавливает все последнии миграции
+
+python .\manage.py createsuperuser
+
